@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Video</title>
+    <link rel="stylesheet" href="assets/style/nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li>
+            <a href="form.html">form</a>
+            <ul class="dropdown">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li>
+                <a href="form.html">form</a>
+              </li>
+              <li><a href="about.html">about</a></li>
+              <ul class="dropdown">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li>
+                  <a href="form.html">form</a>
+                </li>
+                <li><a href="about.html">about</a></li>
+              </ul>
+            </ul>
+          </li>
+          <li><a href="about.html">about</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Audio</h2>
+      <audio controls src="assets/media/goat.mp3"></audio>
+      <video controls width="200px" src="assets/media/video.mp4"></video>
+      <video controls width="200px" title="Flower">
+        <source src="assets/media/flower.webm" />
+      </video>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/cQW-x8Wnk-I?si=oB1BdJK2zG6rx77B"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+
+      <button disabled>Click me</button>
+      <button title="It's button">Click me</button>
+      <input type="number" max="10" min="5" id="">
+    </main>
+  </body>
+</html>
